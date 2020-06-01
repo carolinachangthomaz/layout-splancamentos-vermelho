@@ -104,7 +104,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color: red;
 }
 
 #mainNav .navbar-nav {
@@ -113,19 +113,19 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: red;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #fe8127;
+  color: red;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: red;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #fe8127;
+  color: red;
 }
 
 #mainNav .navbar-toggler {
@@ -152,11 +152,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #fe8127;
+    background: red;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #fe8127;
+    background: red;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -350,7 +350,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #fff !important;
 }
 
 .text-primary {
