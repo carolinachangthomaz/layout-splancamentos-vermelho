@@ -1,0 +1,18 @@
+<!-- Portfolio Grid Section -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-12">
+        <ngb-carousel *ngIf="imagesUrl" style="width: 80%; margin-left: 10%">
+          <ng-template ngbSlide *ngFor="let imagesUrl of imagesUrl">
+           <img [src]="imagesUrl" alt="Random first slide" class="imagem-carrousel"> 
+            <div class="carousel-caption">
+              <!--<h3>{{image.texto}}</h3>-->
+             
+            </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+</section>

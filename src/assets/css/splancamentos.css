@@ -198,6 +198,7 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
+  background-color: black;
 }
 
 .portfolio .portfolio-item {
@@ -379,4 +380,25 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.carousel-control-prev{
+  margin-left: -26%;
+  cursor: pointer;
+}
+.carousel-control-next{
+  margin-right: -26%;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.imagem-carrousel {
+  height: 500px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
 }
