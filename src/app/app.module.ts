@@ -7,12 +7,14 @@ import { GaleriaComponent } from './common/galeria/galeria.component';
 
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProjetoComponent } from './common/projeto/projeto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    ProjetoComponent
   ],
   imports: [
     BrowserModule,

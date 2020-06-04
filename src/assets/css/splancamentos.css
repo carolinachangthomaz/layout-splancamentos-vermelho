@@ -101,6 +101,7 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Montserrat';
+  background-color: white !important;
 }
 
 #mainNav .navbar-brand {

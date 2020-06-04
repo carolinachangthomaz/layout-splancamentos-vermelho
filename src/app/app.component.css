@@ -1,0 +1,28 @@
+.contato-form {
+  width: 400px;
+  height: 500px;
+  float: right;
+  margin-top: 2%; /* altura que está do topo */
+  z-index: 1000;
+  top: 100px; /* altura que vai parar antes do topo */
+  position: sticky;
+  position: -webkit-sticky;
+  padding: 25px;
+    /* background-color: gray;*/
+    opacity: .4;
+}
+
+:host { color: blue ;}
+
+:host ::ng-deep .tabset1 a.nav-link {
+  color: gray;
+  
+}
+
+:host ::ng-deep .tabset1 a.nav-link.active {
+  color: black;
+  font-weight: bold;
+  /* background-color: gray;*/
+}
+    
+

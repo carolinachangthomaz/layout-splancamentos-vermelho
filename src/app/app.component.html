@@ -1,8 +1,68 @@
 <app-header></app-header>
 
+
+
 <app-galeria></app-galeria>
-<!-- About Section -->
-<section class="bg-primary text-white mb-0" id="about">
+
+<div class="contato-form">
+    <ngb-tabset class="tabset1">
+        <ngb-tab title="WhatsApp">
+            <ng-template ngbTabContent>
+              
+                <div class="boxVisita">
+                    <div class="CampoForm">
+                       <div class="borda-input">   </div>
+                       <div class="col-xs-12 col-md-12"> 
+                          <p> </p>
+                      </div>
+                      <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                           <div class="borda-input">   </div>
+                          <div class="col-xs-12 col-md-12"> 
+                              <input class="form-control" name="nome" id="nome" type="text" placeholder="Nome" required="required" data-validation-required-message="Nome obrigatório.">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="borda-input">   </div>
+                          <div class="col-xs-12 col-md-12">   
+                            <input name="email" type="text" id="email" placeholder="Email" class="form-control" required="required" data-validation-required-message="Email obrigatório.">  
+                            <p class="help-block text-danger"></p>
+                          </div>  
+                          <div class="borda-input">   </div>
+                          <div class="col-xs-12 col-md-12">                              
+                            <input name="telefone" type="text" id="telefone" placeholder="(DDD) Celular" class="form-control" maxlength="15">
+                            <p class="help-block text-danger"></p>
+                          </div>  
+                          <div class="borda-input">   </div>
+                          <div class="col-xs-12 col-md-12">
+                              <textarea class="form-control" id="message" rows="3" placeholder="Mensagem" required="required" data-validation-required-message="Mensagem obrigatória"></textarea>
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div id="success"></div>
+                          <div class="col-xs-12 col-md-12">                          
+                              <button type="submit" class="btn btn-info"  id="sendMessageButton">Enviar</button>
+                          </div>
+                      </form>
+                   </div>
+                  </div>
+
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab title="E-mail">
+            <ng-template ngbTabContent>
+              <p>Content for tab 2</p>
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab title="Telefone">
+            <ng-template ngbTabContent>
+              <p>Content for tab 3</p>
+            </ng-template>
+          </ngb-tab>
+      </ngb-tabset>
+</div>
+
+<app-projeto></app-projeto>
+
+<!-- contact Section -->
+<section class="text-white mb-0" id="contact" style="background-color: #E6E6E6">
   <div class="container">
     <h2 class="text-center text-uppercase text-white">Sobre</h2>
     <hr class="star-light mb-5">
@@ -22,53 +82,6 @@
   </div>
 </section>
 
-<!-- Contact Section -->
-<section id="contact">
-  <div class="container">
-    <h2 class="text-center text-uppercase text-secondary mb-0">Contato</h2>
-    <hr class="star-dark mb-5">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <!--  -->
-        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-              <label>Nome</label>
-              <input class="form-control" id="name" type="text" placeholder="Nome" required="required" data-validation-required-message="Nome obrigatório.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-              <label>Email</label>
-              <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Email obrigatório.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-              <label>Telefone</label>
-              <input class="form-control" id="phone" type="tel" placeholder="Telefone" required="required" data-validation-required-message="Telefone obrigatório.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-              <label>Mensagem</label>
-              <textarea class="form-control" id="message" rows="5" placeholder="Mensagem" required="required" data-validation-required-message="Mensagem obrigatória"></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <br>
-          <div id="success"></div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Enviar</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-to-top d-lg-none position-fixed ">
