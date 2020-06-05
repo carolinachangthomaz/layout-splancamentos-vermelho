@@ -1,0 +1,33 @@
+<!-- contact Section -->
+<section class="text-white mb-0" id="contact" style="background-color: #E6E6E6">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 ml-auto">
+        <agm-map 
+            (mapReady)="mapReadyHandler()" 
+            [latitude]="lat" 
+            [longitude]="lng"
+            [zoom]="14" >
+              <agm-circle *ngIf="!isPositionError && lat && lng"
+                [latitude]="lat"
+                [longitude]="lng"
+                [radius]="800"
+                [fillColor]="'#f44336'"
+                [fillOpacity]="0.4"
+              >
+              </agm-circle>
+
+              <agm-info-window *ngIf="isPositionError"
+                [latitude]="lat"
+                [longitude]="lng"
+                [maxWidth]="300"
+                [isOpen]=true>
+                Local não encontrado
+              </agm-info-window>
+          </agm-map>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
