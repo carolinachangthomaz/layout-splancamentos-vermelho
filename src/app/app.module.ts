@@ -16,6 +16,7 @@ import { MapService } from './common/map/map.service';
 import { CamelizePipe } from 'ngx-pipes';
 
 import { MAP_API_KEY } from '../../config/map-config';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MAP_API_KEY } from '../../config/map-config';
     HeaderComponent,
     GaleriaComponent,
     ProjetoComponent,
-    MapComponent
+    MapComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
