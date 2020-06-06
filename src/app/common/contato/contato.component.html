@@ -1,0 +1,66 @@
+<div class="contato-form">
+    <ngb-tabset class="tabset1">
+        <ngb-tab title="WhatsApp || E-mail">
+            <ng-template ngbTabContent>
+              
+                <div class="boxVisita">
+                    <div class="CampoForm">
+                       <div class="borda-input">   </div>
+                       <div class="col-xs-12 col-md-12"> 
+                          <p> </p>
+                      </div>
+                      <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                           <div class="borda-input">   </div>
+                           <input type="hidden" name="projeto" id="projeto" value="2"/> <!-- NEOHOUSE CAMPO BELO -->
+                          <div class="col-xs-12 col-md-12 control-group"> 
+                              <input class="form-control" name="nome" id="nome" type="text" placeholder="Nome" required="required" data-validation-required-message="Informe o seu Nome."/>
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="borda-input">   </div>
+                          <div class="col-xs-12 col-md-12">   
+                            <input name="email" type="text" id="email" placeholder="Email" class="form-control"/>  
+                            <p class="help-block text-danger"></p>
+                          </div>  
+                          <div class="borda-input">   </div>
+                          <div class="col-xs-12 col-md-12 control-group">                              
+                            <input name="telefone" type="text" id="telefone" placeholder="(DDD) Celular" class="form-control" maxlength="15" required="required" data-validation-required-message="Informe o número."/>
+                            <p class="help-block text-danger"></p>
+                          </div>  
+                          <div class="borda-input">   </div>
+                          <div class="col-xs-12 col-md-12">
+                              <textarea class="form-control" id="message" rows="3" placeholder="Mensagem"></textarea>
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div id="success"></div>
+                          <div class="col-xs-12 col-md-12">                          
+                              <button type="submit" class="btn btn-info"  id="sendMessageButton">Enviar</button>
+                          </div>
+                      </form>
+                   </div>
+                  </div>
+
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab title="Ligação">
+            <ng-template ngbTabContent>
+                <div class="row">
+                    <div class="col-lg-12 mr-auto" >
+                        <div class="info-box bg-red">
+                            <div>
+                              <span class="info-box-text" style="text-align: center;">Atendimento exclusivo</span>
+                            
+                              <div class="progress">
+                                <div class="progress-bar" style="width: 100%"></div>
+                              </div>
+                              <span class="progress-description" style="text-align: center;">
+                                (11) 99225-9730
+                                  </span>
+                            </div>
+                            <!-- /.info-box-content -->
+                          </div>
+                    </div>
+                  </div>
+            </ng-template>
+          </ngb-tab>
+      </ngb-tabset>
+</div>

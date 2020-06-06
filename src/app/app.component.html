@@ -1,67 +1,12 @@
 <app-header></app-header>
 
-
-
 <app-galeria></app-galeria>
 
-<div class="contato-form">
-    <ngb-tabset class="tabset1">
-        <ngb-tab title="WhatsApp">
-            <ng-template ngbTabContent>
-              
-                <div class="boxVisita">
-                    <div class="CampoForm">
-                       <div class="borda-input">   </div>
-                       <div class="col-xs-12 col-md-12"> 
-                          <p> </p>
-                      </div>
-                      <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                           <div class="borda-input">   </div>
-                          <div class="col-xs-12 col-md-12"> 
-                              <input class="form-control" name="nome" id="nome" type="text" placeholder="Nome" required="required" data-validation-required-message="Nome obrigatório.">
-                              <p class="help-block text-danger"></p>
-                          </div>
-                          <div class="borda-input">   </div>
-                          <div class="col-xs-12 col-md-12">   
-                            <input name="email" type="text" id="email" placeholder="Email" class="form-control" required="required" data-validation-required-message="Email obrigatório.">  
-                            <p class="help-block text-danger"></p>
-                          </div>  
-                          <div class="borda-input">   </div>
-                          <div class="col-xs-12 col-md-12">                              
-                            <input name="telefone" type="text" id="telefone" placeholder="(DDD) Celular" class="form-control" maxlength="15">
-                            <p class="help-block text-danger"></p>
-                          </div>  
-                          <div class="borda-input">   </div>
-                          <div class="col-xs-12 col-md-12">
-                              <textarea class="form-control" id="message" rows="3" placeholder="Mensagem" required="required" data-validation-required-message="Mensagem obrigatória"></textarea>
-                              <p class="help-block text-danger"></p>
-                          </div>
-                          <div id="success"></div>
-                          <div class="col-xs-12 col-md-12">                          
-                              <button type="submit" class="btn btn-info"  id="sendMessageButton">Enviar</button>
-                          </div>
-                      </form>
-                   </div>
-                  </div>
-
-            </ng-template>
-          </ngb-tab>
-          <ngb-tab title="E-mail">
-            <ng-template ngbTabContent>
-              <p>Content for tab 2</p>
-            </ng-template>
-          </ngb-tab>
-          <ngb-tab title="Telefone">
-            <ng-template ngbTabContent>
-              <p>Content for tab 3</p>
-            </ng-template>
-          </ngb-tab>
-      </ngb-tabset>
-</div>
+<app-contato></app-contato>
 
 <app-projeto></app-projeto>
 
-<app-map></app-map>
+<!-- <app-map></app-map> -->
 
 <app-footer></app-footer>
 
