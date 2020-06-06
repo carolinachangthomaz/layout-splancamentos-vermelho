@@ -19,11 +19,13 @@ export class GaleriaComponent implements OnInit {
 }
 
   ngOnInit() {
-    this.imagesUrl = ['../../../assets/imagens/lancamento-cyrela-iconyc-churrasqueira-3.jpg',
-                      '../../../assets/imagens/lancamento-cyrela-iconyc-portaria-embasamento-4.jpg',
-                      '../../../assets/imagens/lancamento-cyrela-iconyc-piscina-5.jpg',
-                      '../../../assets/imagens/lancamento-cyrela-iconyc-portaria-embasamento-4.jpg',
-                      '../../../assets/imagens/lancamento-cyrela-iconyc-piscina-5.jpg'];
+    this.imagesUrl = ['../../../assets/imagens/lancamento-neohouse-campo-belo-piscina-externa-5.webp',
+                      '../../../assets/imagens/lancamento-neohouse-campo-belo-fachada-1.webp',
+                      '../../../assets/imagens/lancamento-neohouse-campo-belo-fachada-2.webp',
+                      '../../../assets/imagens/lancamento-neohouse-campo-belo-implantacao-18.webp',
+                      '../../../assets/imagens/lancamento-neohouse-campo-belo-lavanderia-9.webp',
+                      '../../../assets/imagens/lancamento-neohouse-campo-belo-implantacao-1o-pavimento-19.webp',
+                      '../../../assets/imagens/lancamento-neohouse-campo-belo-piscina-interna-4.webp'];
   }
 
 }
