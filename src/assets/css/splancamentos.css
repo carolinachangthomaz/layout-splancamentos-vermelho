@@ -336,11 +336,12 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #fe8127;
+  color: gray;
 }
 
 a:focus, a:hover, a:active {
-  color: #e97406;
+  color: black;
+  font-weight: bold;
 }
 
 .btn {
@@ -348,7 +349,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #fe8127 !important;
+  background-color: red !important;
 }
 
 .bg-secondary {
@@ -384,11 +385,11 @@ a:focus, a:hover, a:active {
 }
 
 .carousel-control-prev{
-  margin-left: -26%;
+  margin-left: -20%;
   cursor: pointer;
 }
 .carousel-control-next{
-  margin-right: -26%;
+  margin-right: -20%;
   cursor: pointer;
 }
 
