@@ -1,3 +1,10 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .contato-form {
+    position : sticky;
+  }
+}
+
 .contato-form {
     width: 400px;
     height: 500px;
@@ -5,9 +12,7 @@
     margin-top: 2%; /* altura que está do topo */
     z-index: 1000;
     top: 100px; /* altura que vai parar antes do topo */
-    position: sticky;
-    position: -webkit-sticky;
-    padding: 25px;
+    padding: 50px;
       /* background-color: gray;*/
       opacity: .4;
   }
