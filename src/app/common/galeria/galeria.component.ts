@@ -19,22 +19,22 @@ export class GaleriaComponent implements OnInit {
 }
 
   ngOnInit() {
-    this.imagesUrl = [{url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fachada-estacionamento.jpg' , texto:'Venha conhecer - NEO HOUSE - Campo Belo'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-spa-solario.jpg', texto:'Spa e Solário'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fachada.jpg', texto:'Fachada'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-decorado-30m.jpg', texto:'Decorado 30 m²'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-decorado-60m.jpg', texto:'Decorado 65 m²'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-implantacao.jpg', texto:'Implantação'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-espaco-gourmet.jpg', texto:'Espaço Gourmet'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-lobby.jpg', texto:'Lobby'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-lavanderia.jpg', texto:'Lavanderia'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-pilates.jpg', texto:'Pilates'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-brinquedoteca.jpg', texto:'Brinquedoteca'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-churrasqueira.jpg', texto:'Churrasqueira'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-churrasqueira-a1.jpg', texto:''},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-bicicletario.jpg', texto:'Bicicletário'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fitness.jpg', texto:'Fitness'},
-                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-piscina-coberta.jpg', texto:'Piscina Aquecida'}];
+    this.imagesUrl = [{url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fachada-estacionamento.webp' , texto:''},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-spa-solario.webp', texto:'Spa e Solário'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fachada.webp', texto:'Fachada'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-decorado-30m.webp', texto:'Decorado 30 m²'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-decorado-60m.webp', texto:'Decorado 65 m²'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-implantacao.webp', texto:'Implantação'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-espaco-gourmet.webp', texto:'Espaço Gourmet'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-lobby.webp', texto:'Lobby'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-lavanderia.webp', texto:'Lavanderia'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-pilates.webp', texto:'Pilates'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-brinquedoteca.webp', texto:'Brinquedoteca'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-churrasqueira.webp', texto:'Churrasqueira'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-churrasqueira-a1.webp', texto:''},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-bicicletario.webp', texto:'Bicicletário'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fitness.webp', texto:'Fitness'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-piscina-coberta.webp', texto:'Piscina Aquecida'}];
   }
 
 }

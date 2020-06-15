@@ -13,9 +13,9 @@ export class ProjetoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.planta_trinta_m = '../../../assets/imagens/planta-30.jpg';
-    this.planta_quarente_m = '../../../assets/imagens/planta-46.jpg';
-    this.planta_sessenta_m = '../../../assets/imagens/planta-65.jpg';
+    this.planta_trinta_m = '../../../assets/imagens/planta-30.webp';
+    this.planta_quarente_m = '../../../assets/imagens/planta-46.webp';
+    this.planta_sessenta_m = '../../../assets/imagens/planta-65.webp';
   }
 
 }
