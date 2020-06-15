@@ -1,0 +1,10 @@
+@media only screen and (min-width: 600px) {
+    .projeto-imagem {
+        width: 65% !important;
+    }
+  }
+
+  .projeto-imagem{
+    width: 100%;
+  }
+  
