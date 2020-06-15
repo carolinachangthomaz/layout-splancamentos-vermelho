@@ -12,20 +12,29 @@ export class GaleriaComponent implements OnInit {
 
   constructor( config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
-   config.interval = 20000;
+   config.interval = 30000;
    config.wrap = false;
    config.keyboard = false;
    config.pauseOnHover = false;
 }
 
   ngOnInit() {
-    this.imagesUrl = ['../../../assets/imagens/lancamento-neohouse-campo-belo-piscina-externa-5.webp',
-                      '../../../assets/imagens/lancamento-neohouse-campo-belo-fachada-1.webp',
-                      '../../../assets/imagens/lancamento-neohouse-campo-belo-fachada-2.webp',
-                      '../../../assets/imagens/lancamento-neohouse-campo-belo-implantacao-18.webp',
-                      '../../../assets/imagens/lancamento-neohouse-campo-belo-lavanderia-9.webp',
-                      '../../../assets/imagens/lancamento-neohouse-campo-belo-implantacao-1o-pavimento-19.webp',
-                      '../../../assets/imagens/lancamento-neohouse-campo-belo-piscina-interna-4.webp'];
+    this.imagesUrl = [{url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fachada-estacionamento.jpg' , texto:'Venha conhecer - NEO HOUSE - Campo Belo'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-spa-solario.jpg', texto:'Spa e Solário'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fachada.jpg', texto:'Fachada'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-decorado-30m.jpg', texto:'Decorado 30 m²'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-decorado-60m.jpg', texto:'Decorado 65 m²'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-implantacao.jpg', texto:'Implantação'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-espaco-gourmet.jpg', texto:'Espaço Gourmet'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-lobby.jpg', texto:'Lobby'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-lavanderia.jpg', texto:'Lavanderia'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-pilates.jpg', texto:'Pilates'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-brinquedoteca.jpg', texto:'Brinquedoteca'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-churrasqueira.jpg', texto:'Churrasqueira'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-churrasqueira-a1.jpg', texto:''},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-bicicletario.jpg', texto:'Bicicletário'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-fitness.jpg', texto:'Fitness'},
+                      {url:'../../../assets/imagens/lancamento-neohouse-campo-belo-piscina-coberta.jpg', texto:'Piscina Aquecida'}];
   }
 
 }
