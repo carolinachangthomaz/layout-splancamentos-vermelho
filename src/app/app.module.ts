@@ -18,6 +18,7 @@ import { CamelizePipe } from 'ngx-pipes';
 import { MAP_API_KEY } from '../../config/map-config';
 import { FooterComponent } from './common/footer/footer.component';
 import { ContatoComponent } from './common/contato/contato.component';
+import { CardComponent } from './common/card/card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ContatoComponent } from './common/contato/contato.component';
     ProjetoComponent,
     MapComponent,
     FooterComponent,
-    ContatoComponent
+    ContatoComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
