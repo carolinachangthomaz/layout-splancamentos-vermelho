@@ -384,23 +384,22 @@ a:focus, a:hover, a:active {
   border-color: #1a252f;
 }
 
-.carousel-control-prev{
-  margin-left: -20%;
-  cursor: pointer;
-}
-.carousel-control-next{
-  margin-right: -20%;
-  cursor: pointer;
-}
-
 :focus {
   outline: 0 !important;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
-.imagem-carrousel {
-  height: 500px;
-  display: block;
-  margin-left: auto; 
-  margin-right: auto;
+@media only screen and (min-width: 600px) {
+.carousel-control-prev{
+  margin-left: -20%;
+  cursor: pointer;
 }
+}
+
+@media only screen and (min-width: 600px) {
+.carousel-control-next{
+  margin-right: -20%;
+  cursor: pointer;
+}
+}
+
