@@ -16,3 +16,9 @@
     margin: 10px 0 0 10px;
 }
 
+.btn-mais-detalhes{
+    background-color: red !important;
+    border-color: red !important;
+    color: white !important;
+}
+
