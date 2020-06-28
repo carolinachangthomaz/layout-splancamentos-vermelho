@@ -8,17 +8,19 @@
     max-width: 150px;
     padding: 4px;
     border: none;
-    color: #fff;
+    color: black !important;
+    font-weight: bold;
     box-shadow: none;
     overflow:hidden;  text-align: center;
-    background-color: #48afe7;
+    background-color: #FFD700;
     border-radius: 20px;
     margin: 10px 0 0 10px;
 }
 
 .btn-mais-detalhes{
-    background-color: red !important;
-    border-color: red !important;
-    color: white !important;
+    background-color: #FFD700 !important;
+    border-color: #FFD700 !important;
+    color: black !important;
+    font-weight: bold;
 }
 
