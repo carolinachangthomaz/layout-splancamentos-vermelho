@@ -1,5 +1,5 @@
-<!-- about Section -->
-<section id="about">
+<!-- projeto Section -->
+<section id="projeto">
   <div class="container">
      <div class="row">
          <div class="col-lg-12 " >
@@ -21,7 +21,7 @@
 
    <div class="row">
      <div class="col-lg-4 " >
-         <div class="info-box bg-yellow">
+         <div class="info-box bg-gray">
              <span class="info-box-icon"><i class="fa fa-bed"></i></span>
              
              <div class="info-box-content">
@@ -41,39 +41,27 @@
          
      </div>
      <div class="col-lg-4 mr-auto" >
-         
+          <div class="info-box bg-gray">
+            <span class="info-box-icon"><i class="fa fa-car"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Vagas</span>
+              <!--<span class="info-box-number">2</span>-->
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 100%"></div>
+              </div>
+              <span class="progress-description">
+                    até 2
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
      </div>
    </div>
    <div class="row">
-       <div class="col-lg-4 " >
-        
-       </div>
-       <div class="col-lg-4 mr-auto" >
-           
-       </div>
-       <div class="col-lg-4 mr-auto" >
-           <div class="info-box bg-green">
-               <span class="info-box-icon"><i class="fa fa-car"></i></span>
-   
-               <div class="info-box-content">
-                 <span class="info-box-text">Vagas</span>
-                 <!--<span class="info-box-number">2</span>-->
-   
-                 <div class="progress">
-                   <div class="progress-bar" style="width: 100%"></div>
-                 </div>
-                 <span class="progress-description">
-                       até 2
-                     </span>
-               </div>
-               <!-- /.info-box-content -->
-             </div>
-       </div>
-     </div>
-
-     <div class="row">
          <div class="col-lg-4 " >
-             <div class="info-box bg-aqua">
+             <div class="info-box bg-gray">
                  <span class="info-box-icon"><i class="fa fa-arrows-alt"></i></span>
      
                  <div class="info-box-content">
@@ -93,25 +81,13 @@
              
          </div>
          <div class="col-lg-4 mr-auto" >
-             
-         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 " >
-         
-        </div>
-        <div class="col-lg-4 mr-auto" >
-            
-        </div>
-        <div class="col-lg-4 mr-auto" >
-            <div class="info-box bg-red">
+              <div class="info-box bg-gray">
                 <span class="info-box-icon"><i class="fa fa-bath"></i></span>
-    
+
                 <div class="info-box-content">
                   <span class="info-box-text">Suíte</span>
                   <!--<span class="info-box-number">2</span>-->
-    
+
                   <div class="progress">
                     <div class="progress-bar" style="width: 100%"></div>
                   </div>
@@ -121,7 +97,7 @@
                 </div>
                 <!-- /.info-box-content -->
               </div>
-        </div>
+         </div>
       </div>
 
       <div class="row">
@@ -196,7 +172,8 @@
      <div class="row">
         <div class="col-lg-12 " style="color: gray">
           <ngb-tabset class="tabset1" [destroyOnHide]="false">
-            <ngb-tab title="65 m²">
+            <ngb-tab>
+              <ng-template ngbTabTitle><b style="color: black">65 m²</b> </ng-template>
               <ng-template ngbTabContent>
                   <div class="row">
                       <div class="col-lg-12 mr-auto" >
@@ -206,7 +183,7 @@
              </ng-template>
             </ngb-tab>
             <ngb-tab>
-              <ng-template ngbTabTitle><b>46 m²</b> </ng-template>
+              <ng-template ngbTabTitle><b style="color: black">46 m²</b> </ng-template>
               <ng-template ngbTabContent>
                   <div class="row">
                       <div class="col-lg-12 mr-auto" >
@@ -216,7 +193,7 @@
               </ng-template>
             </ngb-tab>
             <ngb-tab>
-              <ng-template ngbTabTitle><b>30 m²</b> </ng-template>
+              <ng-template ngbTabTitle><b style="color: black">30 m²</b> </ng-template>
               <ng-template ngbTabContent>
                   <div class="row">
                       <div class="col-lg-12 mr-auto" >
