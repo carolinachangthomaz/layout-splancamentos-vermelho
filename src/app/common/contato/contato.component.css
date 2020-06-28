@@ -5,6 +5,12 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .contato-form {
+    display: none;
+  }
+}
+
 .contato-form {
     width: 410px;
     height: 500px;
