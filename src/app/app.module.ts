@@ -19,6 +19,7 @@ import { MAP_API_KEY } from '../../config/map-config';
 import { FooterComponent } from './common/footer/footer.component';
 import { ContatoComponent } from './common/contato/contato.component';
 import { CardComponent } from './common/card/card.component';
+import { ContatoCelularComponent } from './common/contato-celular/contato-celular.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CardComponent } from './common/card/card.component';
     MapComponent,
     FooterComponent,
     ContatoComponent,
-    CardComponent
+    CardComponent,
+    ContatoCelularComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,61 @@
+<div class="container fale-com-corretor">
+    <div class="row">
+      <div class="col-md-12">
+          <div id="accordion">
+              <div class="card">
+                  <div class="card-header">
+                    <button class="card-link" data-toggle="collapse" data-target="#collapseOne" >
+                    <span style="font-weight: bold;"> Fale com o Corretor <i class="fa fa-whatsapp" ></i></span>
+                    </button>
+                  </div>
+                  <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        <a href="https://api.whatsapp.com/send?phone=5511967348851&text=SP%20Lan%C3%A7amentos%20-%20Neo%20House" target="_blank"> <img src="{{imageWatsapp}}" >
+                        </a>
+                                       
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                      <button class="card-link" data-toggle="collapse" data-target="#collapseTwo" >
+                          <span style="font-weight: bold;"> E-mail <i class="fa fa-envelope" ></i></span>
+                      </button>
+                      </div>
+                      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="borda-input">   </div>
+                                <input type="hidden" name="projeto" id="projeto" value="2"/> <!-- NEOHOUSE CAMPO BELO -->
+                               <div class="col-xs-12 col-md-12 control-group"> 
+                                   <input class="form-control" name="nome" id="nome" type="text" placeholder="Nome" required="required" data-validation-required-message="Informe o seu Nome."/>
+                                   <p class="help-block text-danger"></p>
+                               </div>
+                               <div class="borda-input">   </div>
+                               <div class="col-xs-12 col-md-12">   
+                                 <input name="email" type="text" id="email" placeholder="Email" class="form-control"/>  
+                                 <p class="help-block text-danger"></p>
+                               </div>  
+                               <div class="borda-input">   </div>
+                               <div class="col-xs-12 col-md-12 control-group">                              
+                                 <input name="telefone" type="text" id="telefone" placeholder="(DDD) Celular" class="form-control" maxlength="15" required="required" data-validation-required-message="Informe o número."/>
+                                 <p class="help-block text-danger"></p>
+                               </div>  
+                               <div class="borda-input">   </div>
+                               <div class="col-xs-12 col-md-12">
+                                   <textarea class="form-control" id="message" rows="3" placeholder="Mensagem"></textarea>
+                                   <p class="help-block text-danger"></p>
+                               </div>
+                               <div id="success"></div>
+                               <div class="col-xs-12 col-md-12">                          
+                                   <button type="button" onclick="sendContato(); return false" class="btn botao-enviar"  id="sendMessageButton" >Enviar</button>
+                               </div>
+                           </form>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              
+            </div>
+      </div>
+    </div>
+  </div>

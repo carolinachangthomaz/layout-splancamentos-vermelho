@@ -1,0 +1,23 @@
+@media only screen and (min-width: 600px) {
+    .fale-com-corretor {
+      display: none;
+    }
+  }
+
+  .card-link{
+    color: #FFD700;
+    width: 100%;
+    background-color: black;
+    float: right;
+    border: none;
+  }
+
+  .card-header{
+    background: black;
+  }
+
+  .botao-enviar{
+    background-color: #FFD700;
+    color: black;
+    font-weight: bold;
+  }
