@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contato.component.css']
 })
 export class ContatoComponent implements OnInit {
-
+  public imageWatsapp;
   constructor() { }
 
   ngOnInit() {
+    this.imageWatsapp = '../../../assets/imagens/whatsapp.png';
   }
 
 }
