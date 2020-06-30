@@ -10,7 +10,7 @@ export class ContatoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.imageWatsapp = '../../../assets/imagens/whatsapp.png';
+    this.imageWatsapp = '../../../assets/imagens/atendimento-whatsapp.png';
   }
 
 }
