@@ -1,3 +1,7 @@
 agm-map {
     height: 360px;
   }
+
+ .nome-rua{
+   color: #FFD700 !important;
+ } 
