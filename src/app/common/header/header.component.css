@@ -34,6 +34,7 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+  margin-right: 2%;
 }
 
 @media (min-width: 992px) {
