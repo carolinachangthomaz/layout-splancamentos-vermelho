@@ -9,11 +9,22 @@
                     </button>
                   </div>
                   <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                    <div class="card-body">
-                        <a href="https://api.whatsapp.com/send?phone=5511967348851&text=SP%20Lan%C3%A7amentos%20-%20Neo%20House" target="_blank"> <img src="{{imageWatsapp}}" style="width:  300px !important">
-                        </a>
-                                       
-                    </div>
+                      <div class="info-box">
+                          <div>
+                            <span class="info-box-text" style="text-align: center;font-weight: bold;">Atendimento exclusivo</span>
+                          
+                            <div class="progress">
+                              <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                            <span class="progress-description" style="text-align: center;font-weight: bold;">
+                              (11) 99225-9730
+                                </span>
+                          </div>
+                          <div>
+                              <a href="https://api.whatsapp.com/send?phone=5511967348851&text=SP%20Lan%C3%A7amentos%20-%20Neo%20House%20Campo%20Belo" target="_blank"> <img src="{{imageWatsapp}}" style="width:  160px !important;margin-left: 25%">
+                              </a>
+                          </div>
+                      </div>
                   </div>
                   <div class="card">
                       <div class="card-header">
@@ -23,31 +34,31 @@
                       </div>
                       <div id="collapseTwo" class="collapse" data-parent="#accordion">
                         <div class="card-body">
-                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <form name="sentMessage" id="contato-celular-form" novalidate="novalidate">
                                 <div class="borda-input">   </div>
-                                <input type="hidden" name="projeto" id="projeto" value="2"/> <!-- NEOHOUSE CAMPO BELO -->
+                                <input type="hidden" name="projeto" id="contato-celular-projeto" value="2"/> <!-- NEOHOUSE CAMPO BELO -->
                                <div class="col-xs-12 col-md-12 control-group"> 
-                                   <input class="form-control" name="nome" id="nome" type="text" placeholder="Nome" required="required" data-validation-required-message="Informe o seu Nome."/>
+                                   <input class="form-control" name="nome" id="contato-celular-nome" type="text" placeholder="Nome" required="required" data-validation-required-message="Informe o seu Nome."/>
                                    <p class="help-block text-danger"></p>
                                </div>
                                <div class="borda-input">   </div>
                                <div class="col-xs-12 col-md-12">   
-                                 <input name="email" type="text" id="email" placeholder="Email" class="form-control"/>  
+                                 <input name="email" type="text" id="contato-celular-email" placeholder="Email" class="form-control"/>  
                                  <p class="help-block text-danger"></p>
                                </div>  
                                <div class="borda-input">   </div>
                                <div class="col-xs-12 col-md-12 control-group">                              
-                                 <input name="telefone" type="text" id="telefone" placeholder="(DDD) Celular" class="form-control" maxlength="15" required="required" data-validation-required-message="Informe o número."/>
+                                 <input name="telefone" type="text" id="contato-celular-telefone" placeholder="(DDD) Celular" class="form-control" maxlength="15" required="required" data-validation-required-message="Informe o número."/>
                                  <p class="help-block text-danger"></p>
                                </div>  
                                <div class="borda-input">   </div>
                                <div class="col-xs-12 col-md-12">
-                                   <textarea class="form-control" id="message" rows="3" placeholder="Mensagem"></textarea>
+                                   <textarea class="form-control" id="contato-celular-message" rows="3" placeholder="Mensagem"></textarea>
                                    <p class="help-block text-danger"></p>
                                </div>
-                               <div id="success"></div>
+                               <div id="contato-celular-success"></div>
                                <div class="col-xs-12 col-md-12">                          
-                                   <button type="button" onclick="sendContato(); return false" class="btn botao-enviar"  id="sendMessageButton" >Enviar</button>
+                                   <button type="button" onclick="sendContatoCelular(); return false" class="btn botao-enviar"  id="contato-celular-send-message-button" >Enviar</button>
                                </div>
                            </form>
                         </div>
