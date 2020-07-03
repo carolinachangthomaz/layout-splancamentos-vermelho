@@ -21,7 +21,7 @@ function sendContato() {
     //url: "http://contatoService-env.eba-kgsvdmim.us-east-1.elasticbeanstalk.com/contato-service",
  // url: "http://localhost:8080/contato-service",
     $.ajax({
-      url: "http://contatoService-env.eba-kgsvdmim.us-east-1.elasticbeanstalk.com/contato-service",
+      url: "http://contatoservice-env.eba-2vkg2j66.us-east-2.elasticbeanstalk.com/contato-service",
       type: 'POST',
       contentType : 'application/json; charset=utf-8',
       data: JSON.stringify(contactForm),
@@ -85,7 +85,7 @@ function sendContato() {
     //url: "http://contatoService-env.eba-kgsvdmim.us-east-1.elasticbeanstalk.com/contato-service",
  // url: "http://localhost:8080/contato-service",
     $.ajax({
-      url: "http://localhost:8080/contato-service",
+      url: "http://contatoservice-env.eba-2vkg2j66.us-east-2.elasticbeanstalk.com/contato-service",
       type: 'POST',
       contentType : 'application/json; charset=utf-8',
       data: JSON.stringify(contactForm),
