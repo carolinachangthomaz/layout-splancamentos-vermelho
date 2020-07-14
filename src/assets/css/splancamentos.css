@@ -123,19 +123,19 @@ header.masthead h2 {
   }
 }
 
-.portfolio {
+.galeria {
   margin-bottom: -15px;
-  background-color: black;
+  background-color: #fff;
 }
 
-.portfolio .portfolio-item {
+.galeria .galeria-item {
   position: relative;
   display: block;
   max-width: 25rem;
   margin-bottom: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
+.galeria .galeria-item .galeria-item-caption {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -143,24 +143,24 @@ header.masthead h2 {
   background-color: rgba(238, 158, 9, 0.9)
 }
 
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.galeria .galeria-item .galeria-item-caption:hover {
   opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.galeria .galeria-item .galeria-item-caption .galeria-item-caption-content {
   font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
-  .portfolio {
+  .galeria {
     margin-bottom: -30px;
   }
-  .portfolio .portfolio-item {
+  .galeria .galeria-item {
     margin-bottom: 30px;
   }
 }
 
-.portfolio-modal .portfolio-modal-dialog {
+.galeria-modal .galeria-modal-dialog {
   padding: 3rem 1rem;
   min-height: calc(100vh - 2rem);
   margin: 1rem calc(1rem - 8px);
@@ -171,27 +171,27 @@ header.masthead h2 {
   box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
 }
 
-.portfolio-modal .portfolio-modal-dialog .close-button {
+.galeria-modal .galeria-modal-dialog .close-button {
   position: absolute;
   top: 2rem;
   right: 2rem;
 }
 
-.portfolio-modal .portfolio-modal-dialog .close-button i {
+.galeria-modal .galeria-modal-dialog .close-button i {
   line-height: 38px;
 }
 
-.portfolio-modal .portfolio-modal-dialog h2 {
+.galeria-modal .galeria-modal-dialog h2 {
   font-size: 2rem;
 }
 
 @media (min-width: 768px) {
-  .portfolio-modal .portfolio-modal-dialog {
+  .galeria-modal .galeria-modal-dialog {
     min-height: 100vh;
     padding: 5rem;
     margin: 3rem calc(3rem - 8px);
   }
-  .portfolio-modal .portfolio-modal-dialog h2 {
+  .galeria-modal .galeria-modal-dialog h2 {
     font-size: 3rem;
   }
 }
@@ -335,12 +335,12 @@ a:focus, a:hover, a:active {
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffd700' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC143C' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 
 }
 
 .carousel-control-prev-icon {
-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffd700' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC143C' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 
 }
 
