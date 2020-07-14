@@ -3,11 +3,11 @@
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Montserrat';
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
 }
 
 #mainNav .navbar-brand {
-  color: #FFD700;
+  color: #DC143C;
 }
 
 #mainNav .navbar-nav {
@@ -16,19 +16,19 @@
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #FFD700;
+  color: #DC143C;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #FFD700;
+  color: #DC143C;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #FFD700;
+  color: #DC143C;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #FFD700;
+  color: #DC143C;
 }
 
 #mainNav .navbar-toggler {
@@ -56,12 +56,12 @@
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #000000;
-    background: #FFD700;
+    color: #ffffff;
+    background: #DC143C;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #000000;
-    background: #FFD700;
+    color: #ffffff;
+    background: #DC143C;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -73,7 +73,7 @@
 }
 
 .nav-header-button {
-  background-color: #FFD700;
+  background-color: #DC143C;
 }
 
 .nav-header-button .text-white{
