@@ -3,5 +3,9 @@ agm-map {
   }
 
  .nome-rua{
-   color: #FFD700 !important;
+   color: #DC143C !important;
  } 
+
+ .map{
+  background-color: #f3f3f3;
+ }
