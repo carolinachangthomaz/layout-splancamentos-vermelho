@@ -8,19 +8,23 @@
     max-width: 150px;
     padding: 4px;
     border: none;
-    color: black !important;
+    color: #fff !important;
     font-weight: bold;
     box-shadow: none;
     overflow:hidden;  text-align: center;
-    background-color: #FFD700;
+    background-color: #DC143C;
     border-radius: 20px;
     margin: 10px 0 0 10px;
 }
 
 .btn-mais-detalhes{
-    background-color: #FFD700 !important;
-    border-color: #FFD700 !important;
-    color: black !important;
+    background-color: #DC143C !important;
+    border-color: #DC143C !important;
+    color: #fff !important;
     font-weight: bold;
+}
+
+.fa{
+    color: #DC143C;
 }
 
