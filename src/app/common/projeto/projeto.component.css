@@ -9,7 +9,30 @@
   }
   
   .fa {
-    color: #FFD700 !important;
+    color: #DC143C !important;
   }
 
+  section {
+    padding: 0rem 0 !important;
+}
   
+.bg-gray {
+  color: #000;
+  background-color: #fff!important;
+  /* background-color: #fff; */
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.info-box-icon {
+  background: white;
+}
+
+.info-box-content{
+  text-align: center;
+}
+
+.info-box-text{
+  font-weight: bold;
+}
